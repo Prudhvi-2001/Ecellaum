@@ -887,7 +887,7 @@ background: #fb3958;
     0%{
        background-image:url(back.png);  
       background-size: 100% 100%; 
-          animation: slider 9s infinite linear;
+          animation: slider 3s infinite linear;
 
       min-height: 100vh;
     background-position: center;
@@ -905,7 +905,7 @@ background: #fb3958;
       background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://www.amity.edu/mumbai/images/university.jpg); 
 
        background-size: 100% 100%; 
-           animation: slider 9s infinite linear;
+           animation: slider 3s infinite linear;
 
         background-size: 100% 100%; 
       min-height: 100vh;
@@ -1037,7 +1037,7 @@ input[type=submit] {
     0%{
        background-image:url(back.png);  
       background-size: 100% 100%; 
-          animation: slider 9s infinite linear;
+          animation: slider 3s infinite linear;
 
       min-height: 100vh;
     background-position: center;
@@ -1055,7 +1055,7 @@ input[type=submit] {
       background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://www.amity.edu/mumbai/images/university.jpg); 
 
        background-size: 100% 100%; 
-           animation: slider 9s infinite linear;
+           animation: slider 3s infinite linear;
 
         background-size: 100% 100%; 
       min-height: 100vh;
