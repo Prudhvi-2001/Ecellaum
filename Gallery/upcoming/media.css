@@ -1,0 +1,206 @@
+@media screen and (max-width:480px){
+  html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  nav{
+  width: 100%;
+  position: absolute;
+}
+.navbar .logo img{
+    width: 240px;
+  margin-top: 10px;
+  margin-left: px;
+}
+nav .navbar .nav-links{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    display: block;
+    max-width: 270px;
+    width: 100%;
+    background: black;
+    line-height: 40px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    z-index: 1000;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  .header{
+ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://media.istockphoto.com/vectors/vector-circle-tech-with-light-blue-and-lamp-bulb-on-technology-vector-id1172940354?k=20&m=1172940354&s=612x612&w=0&h=N6EXGbVnerbhh0rbqVnYFoYIC-GQ_tMZy9_olgzbgNI=);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    margin-top: 0px;
+    width: 100%;
+
+}
+  .register_button{
+  float: left;
+position: relative;
+margin-left: 0px;
+margin-top: 0px;
+width: 50%;
+
+  
+}
+
+.sidebar-logo  i,
+    .navbar .bx-menu{
+      font-size: 25px;
+      color: #fff;
+     margin-left: -20px;
+     margin-top: -7px;
+    }
+.header h1:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: orange;
+  right: 35%;
+  top: 130%;
+  position: absolute;
+}
+.upcoming h1{
+  font-size: 32px;
+}
+.upcoming h1:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 4px;
+  background: orange;
+  right: 40%;
+  top: 140%;
+  position: absolute;
+}
+.countdown{
+  font-size: 40px;
+}
+.container .row .col-sm-6 .mySlides{
+  width: 125%;
+  height: 125%;
+}
+#about{
+   margin-top: -40px;
+}
+.col-sm-6 h2{
+  font-size: 30px;
+
+}
+.col-sm-6 p{
+  font-size: 18px;
+}
+.btn-success{
+  margin-left: 80px;
+  margin-top: 15px;
+  margin-bottom: 15px ;
+}
+.timeline-header h1{
+margin-top: 15px;
+margin-bottom: 10px;
+font-size: 32px;
+}
+
+.timeline-header h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: orange;
+  right: 40%;
+  top: 130%;
+  position: absolute;
+}
+.registration h2{
+
+}
+form input[type=text],input[type="email"], select,textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: black;
+  outline: 0px;
+}
+form input[type="email"]{
+  width: 100%;
+
+}
+form{
+  text-align: center;
+}
+form input[type=submit] {
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+.speaker h1{
+  font-size: 32px;
+}
+.speaker h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: orange;
+  right: 40%;
+  top: 130%;
+  position: absolute;
+}
+.registration h1{
+  font-size: 28px;
+}
+#startupweek{
+  width: 100%;
+  margin-top: 20px;
+}
+.container .row .col-sm-6 img{
+  width: 100%;
+}
+.container .row .col-sm-6 #description{
+  margin-left: 120px;
+}
+.container .row .col-sm-6 p{
+  font-size: 17px;
+}
+.container .row .col-sm-6 a{
+  width: 90%;
+  margin-left: 0px;
+}
+#events h1{
+  font-size: 32px;
+}
+#events h1:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: orange;
+  right: 40%;
+  top: 130%;
+  position: absolute;
+}
+.wrapper{
+  width: 100%;
+  margin-left: 0px;
+}
+
+}
